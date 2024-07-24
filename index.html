@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>GLB Hostel</title>
+</head>
+
+<body>
+    <h1>A humble request!! </h1>
+    <div class="text-container" id="text-container">
+         </div>
+   
+    <div class="cont1">
+        <h1 class="head">Hostel of G.L. Bajaj</h1>
+
+        <div class="div1">
+            <img class="img1" src="img1.jpg" alt="">
+        </div>
+        
+        <p>This is where is person <br> is supposed to sit</p>
+
+
+        <div class="div1">
+            <img class="img1" src="img2.jpg" alt="">
+        </div>
+                <p>Roach1</p>
+
+                <div class="div1">
+                    <img class="img1" src="img21.jpg" alt="">
+                </div>
+                <p>Roach 2 and 3</p>
+
+                <div class="div1">
+                    <img class="img1" src="img22.jpg" alt="">
+                </div>
+                <p>Roach 4</p>
+            </div>
+            <h3 > <li> If unnecessary or no action is taken then <br>  a video along with LOGO of the college will be posted</li>
+            <li>We have go contacts with major X accounts(jus sayin')</li>
+        <li>More updates comming soon, and yes don't try to track this down,<br> you won't be able to , now get the FUCK outtaa here</li></h3>
+            <script>
+document.addEventListener('DOMContentLoaded', function() {
+    var textContainer = document.getElementById('text-container');
+    var text = "Imagine waking up at 6AM to this";
+    var words = text.split(' ');
+
+    for (var i = 0; i < words.length; i++) {
+        (function(i) {
+            setTimeout(function() {
+                textContainer.textContent += words[i] + ' ';
+            }, i * 500); // Adjust delay (in milliseconds) between each word
+        })(i);
+    }
+});
+</script>
+</body>
+
+</html>
