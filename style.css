@@ -1,0 +1,42 @@
+/* .head{
+    justify-content: center;
+} */
+body{
+    padding: 0;
+    margin: -22px;
+    text-align: center;
+    justify-content: center;
+    background-image: url('back.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.img1{
+    width:200px;
+    border-radius: 10px;
+}
+.div1{
+    border-radius: 4px;
+    padding: 0;
+  
+}   
+.div1 {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap to new lines */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between items */
+}
+
+.div img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+}
+.cont1{
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    background-color: aquamarine;
+}
